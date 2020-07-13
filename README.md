@@ -1,3 +1,7 @@
+# MovieLib
+
+A react Interface designed for management of movies.
+
 # Packages
 
 - bootstrap v 4.1.1
@@ -8,3 +12,8 @@
 # Features
 
 - Load, Delete, Like movies in the Movie Library
+- Sorting, Filtering, Pagination of the Movies
+
+# How To Use
+
+- Run 'npm start' to deploy development server
