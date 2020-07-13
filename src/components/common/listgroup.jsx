@@ -1,14 +1,12 @@
 import React from 'react';
 
-const ListGroup = (props) => {
-  const {
-    items,
-    valueProperty: value,
-    textProperty: text,
-    onItemSelect,
-    selectedItem,
-  } = props;
-
+const ListGroup = ({
+  items,
+  valueProperty: value,
+  textProperty: text,
+  onItemSelect,
+  selectedItem,
+}) => {
   const listStyle = 'btn btn-sm list-group-item';
   return (
     <ul className="list-group">
