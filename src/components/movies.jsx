@@ -84,29 +84,32 @@ class Movies extends Component {
     return movieCount === 0 ? (
       <p className="m-5">There are no movies in the database.</p>
     ) : (
-      <div className="row m-5">
-        <div className="col-3">
-          <ListGroup
-            items={genres}
-            onItemSelect={this.handleGenreSelect}
-            selectedItem={selectedGenre}
-          />
-        </div>
-        <div className="col">
-          <p>There are {totalCount} movies in the database.</p>
-          <MoviesTable
-            sortColumn={sortColumn}
-            movies={movies}
-            onLike={this.handleLike}
-            onDelete={this.handleDelete}
-            onSort={this.handleSort}
-          />
-          <Pagination
-            itemsCount={totalCount}
-            pageSize={pageSize}
-            onPageChange={this.handlePageChange}
-            currentPage={currentPage}
-          />
+      <div>
+        <h2>Movies</h2>
+        <div className="row m-5">
+          <div className="col-3">
+            <ListGroup
+              items={genres}
+              onItemSelect={this.handleGenreSelect}
+              selectedItem={selectedGenre}
+            />
+          </div>
+          <div className="col">
+            <p>There are {totalCount} movies in the database.</p>
+            <MoviesTable
+              sortColumn={sortColumn}
+              movies={movies}
+              onLike={this.handleLike}
+              onDelete={this.handleDelete}
+              onSort={this.handleSort}
+            />
+            <Pagination
+              itemsCount={totalCount}
+              pageSize={pageSize}
+              onPageChange={this.handlePageChange}
+              currentPage={currentPage}
+            />
+          </div>
         </div>
       </div>
     );
