@@ -32,3 +32,7 @@
 # Live Demo :computer:
 
 - https://movielibproject.netlify.app/ :point_left:
+
+# Contributers :busts_in_silhouette:
+- @kineticlion :hand:
+
