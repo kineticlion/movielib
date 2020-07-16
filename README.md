@@ -21,3 +21,7 @@ A react Interface designed for management of movies.
 # How To Use
 
 - Run 'npm start' to deploy development server
+
+# Live Demo
+
+- https://movielibproject.netlify.app/movies :point_left:
