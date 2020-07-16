@@ -1,8 +1,22 @@
-# MovieLib
+# MovieLib :movie_camera:
 
-A react Interface designed for management of movies.
+- A react.js application for movie management
 
-# Packages
+![Alt Text](https://media.giphy.com/media/THOjCPyGcxW78x5t4W/giphy.gif)
+
+# Idea :bulb:
+
+- To create a management application with focus on efficiency and user experience
+- Develop the application with implementing reusable components
+
+# Features :boom:
+
+- Load, Delete, Like movies in the Movie Library
+- Sorting, Filtering, Pagination of the Movies
+- Routing
+- User Login
+
+# Packages Used :package:
 
 - bootstrap v 4.1.1
 - font-awesome v 4.7
@@ -11,17 +25,10 @@ A react Interface designed for management of movies.
 - react-router-dom v5.2.0
 - joi-browser v 13.4.0
 
-# Features
-
-- Load, Delete, Like movies in the Movie Library
-- Sorting, Filtering, Pagination of the Movies
-- Routing
-- User Login
-
-# How To Use
+# How To Use :question:
 
 - Run 'npm start' to deploy development server
 
-# Live Demo
+# Live Demo :computer:
 
 - https://movielibproject.netlify.app/ :point_left:
