@@ -24,4 +24,4 @@ A react Interface designed for management of movies.
 
 # Live Demo
 
-- https://movielibproject.netlify.app/movies :point_left:
+- https://movielibproject.netlify.app/ :point_left:
