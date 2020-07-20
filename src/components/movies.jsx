@@ -6,7 +6,7 @@ import { paginate } from "../utils/paginate";
 import ListGroup from "./common/listgroup";
 import MoviesTable from "./moviesTable";
 import { Link } from "react-router-dom";
-import _, { filter } from "lodash";
+import _ from "lodash";
 import Searchbox from "./searchbox";
 
 class Movies extends Component {
